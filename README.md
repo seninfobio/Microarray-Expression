@@ -19,3 +19,9 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 
 BiocManager::install("ArrayExpress")
 ```
+
+  To view documentation for the version of this package installed in your system, start R and enter:
+  
+  ```
+  browseVignettes("ArrayExpress")
+  ```
